@@ -20,3 +20,4 @@ let wrapAdjective = (wrapper=`*`) => {
 } 
 
 console.log(wrapAdjective(`||`)(`annoying`))
+// => You are ||annoying||!
